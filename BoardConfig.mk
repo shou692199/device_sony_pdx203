@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# Inherit from sony sm8250-common
--include device/sony/sm8250-common/BoardConfigCommon.mk
+# Inherit from sony edo
+-include device/sony/edo/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/pdx203
 
