@@ -49,6 +49,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libhdr_somc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/libhdr_somc.xml
 
+# System props overrides
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.semc.product.device=AT \
+    ro.semc.product.model=XQ-AT52
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
